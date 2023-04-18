@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const currentUrl = window.location.href;
 
   function createShareButtons() {
-    if (currentUrl.includes('/blog')) {
+    if (currentUrl.includes('/')) {
       const shareButtonsContainer = document.createElement('div');
       shareButtonsContainer.classList.add('share-buttons');
 
